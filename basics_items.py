@@ -2,13 +2,13 @@ from shared import *
 from mr_types import *
 
 def shard(name: str, element: Element):
-    return Item(name, 1.06, [
+    return Item(name, .29, [
         (mana, 5), 
         (element, 500), 
     ])
 
 def prism(name: str, element: Element):
-    return Item(name, 1.59, [
+    return Item(name, 1.2, [
         (mana, 50),
         (element, 50 * K),
     ])

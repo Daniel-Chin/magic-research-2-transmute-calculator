@@ -34,3 +34,4 @@ class Item(Resource):
         return hash(self.name)
 
 slimeDrop = Raw('SlimeDrop')
+magicSalt = Raw('MagicSalt')

@@ -42,11 +42,9 @@ def main():
         j, r = factoryOf(item, amount)
         reduceDict(jobs, j)
         reduceDict(raws, r)
-    f(ruggedLeatherArmor, 1)
-    f(potionOfAccuracy, 8)
-    f(potionOfSharpness, 8)
-    f(potionOfEvasion, 8)
-    f(greaterPotionOfMuscle, 1)
+    f(alchemistsCowl, 1)
+    f(cloakOfDarkness, 64)
+    f(potionOfEvasion, 16)
     display(jobs, raws)
 
 if __name__ == "__main__":
