@@ -35,3 +35,4 @@ class Item(Resource):
 
 slimeDrop = Raw('SlimeDrop')
 magicSalt = Raw('MagicSalt')
+mysticBlossom = Raw('MysticBlossom')

@@ -2,6 +2,17 @@ from shared import *
 from mr_types import *
 from basics_items import *
 
+copperOre = Item("copperOre", 24, [
+    (mana, 300),
+    (earth, 10 * K),
+])
+
+copperIngot = Item("copperIngot", 24, [
+    (mana, 250),
+    (fire, 7500), 
+    (copperOre, 3),
+])
+
 thickHide = Item("thickHide", 2, [
     (mana, 500), 
     (earth, 1 * M), 
@@ -54,6 +65,14 @@ greaterPotionOfMuscle = Item("greaterPotionOfMuscle", 24, [
     (slimeDrop, 500),
 ])
 
+greaterPotionOfToughness = Item("greaterPotionOfToughness", 24, [
+    (mana, 1800),
+    (earth, 5 * M),
+    (earthPrism, 100),
+    (poisonPrism, 20),
+    (slimeDrop, 500),
+])
+
 thunderWhip = Item("thunderWhip", 24, [
     (mana, 1300),
     (elec, 2 * M),
@@ -80,4 +99,18 @@ alchemistsCowl = Item("alchemistsCowl", 24, [
     (poison, 3 * M),
     (poisonPrism, 150),
     (cotton, 50),
+])
+
+tamersWand = Item("tamersWand", 24, [
+    (mana, 500),
+    (life, 40 * K), 
+    (lifeShard, 100),
+])
+
+ringOfRagingFamiliar = Item("ringOfRagingFamiliar", 24, [
+    (mana, 1200),
+    (mysticBlossom, 40),
+    (firePrism, 50),
+    (airPrism, 50),
+    (copperIngot, 30),
 ])
